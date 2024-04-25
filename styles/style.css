@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* Header related styles */
+header{
+    background-image: url('/assets/Banner\ Image.png');
+    width: 100%;
+}
