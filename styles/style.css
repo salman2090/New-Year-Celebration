@@ -5,16 +5,25 @@ body{
 
 /* Header related styles */
 header{
-    background: url('/assets/Banner\ Image.png');
+    /* padding: 0 140px; */
+
+    display: flex;
+
+    justify-content: center;
+}
+.banner{
+    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/assets/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: top center ;
     border-radius: 16px;
-    width: 100%; 
+    width: 90%; 
     height: 600px;
     /* margin: 50px 140px; */
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
 .banner-title{
-
+    padding-top: 115px;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -32,16 +41,13 @@ header{
 }
 
 /* Sales section styles */
-.sales-container{
-    
-}
-.sales-container img{
+.deals-container img{
     
     display: block;
     margin: 0 auto;
   
 }
-.sales-heading{
+.deals-heading{
     color: #F00;
 text-align: center;
 font-size: 88px;
@@ -49,7 +55,7 @@ font-style: normal;
 font-weight: 700;
 
 }
-.sales-description{
+.deals-description{
     color: #F00;
 text-align: center;
 
@@ -122,6 +128,20 @@ flex-shrink: 0;
 }
 .highlight-text{
     color: #F00;
+
+font-size: 20px;
+
+font-weight: 500;
+
+}
+.section-sub-heading{
+    color: #070211;
+font-family: Merriweather;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
 }
 .btn-primary{
     margin-top: 35px;
@@ -149,6 +169,11 @@ background: url(<path-to-image>) lightgray -91.279px 0px / 150.038% 100% no-repe
 border: 15px solid #F00;
     border-radius: 364.844px;
 
+}
+.sales-container{
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
 }
 
 /* Portfolio Section styles */
@@ -178,4 +203,27 @@ margin: 140px auto;
 /* Footer related style */
 footer{
     background: #070211;
+    padding: 120px;
+}
+.contact-info{
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+footer hr{
+    background-color: #FFFFFF26;
+    margin: 48px 0;
+}
+.social-contacts{
+    text-align: center;
+    margin-bottom: 90px;
+   
+    
+}
+.social-contacts img{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+gap: 24px;
+padding-left: 24px;
 }
